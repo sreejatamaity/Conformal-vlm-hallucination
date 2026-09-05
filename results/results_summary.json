@@ -1,0 +1,30 @@
+{
+  "model_id": "llava-hf/llava-1.5-7b-hf",
+  "dataset": "POPE Adversarial (COCO val2014)",
+  "seed": 42,
+  "alpha": 0.1,
+  "n_calib": 1000,
+  "n_test": 2000,
+  "q_hat": 0.6619228720664978,
+  "prob_threshold": 0.3380771279335022,
+  "empirical_coverage": 0.9145,
+  "coverage_target": 0.9,
+  "coverage_guarantee_satisfied": true,
+  "avg_set_size": 1.195,
+  "pct_empty": 0.0,
+  "pct_singleton": 0.805,
+  "pct_uncertain": 0.195,
+  "point_prediction_accuracy": 0.8335,
+  "calib_score_stats": {
+    "mean": 0.27574261809140443,
+    "median": 0.20434194803237915,
+    "std": 0.2307458782075998,
+    "min": 0.005730271339416504,
+    "max": 0.9688561670482159
+  },
+  "image_load_stats": {
+    "success": 3014,
+    "failed": 0
+  },
+  "generated_at_utc": "2026-09-05T09:50:17.591759+00:00"
+}
