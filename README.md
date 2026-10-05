@@ -51,7 +51,7 @@ Random seeds (Python, NumPy, PyTorch/CUDA) are fixed at 42.
 
 ## Method Summary
 
-1. **Uncertainty extraction:** a single forward pass through LLaVA extracts next-token logits at the answer position; a 2-class softmax over only the `Yes`/`No` tokens gives a calibrated binary probability — no autoregressive decoding required.
+1. **Uncertainty extraction:** a single forward pass through LLaVA extracts next-token logits at the answer position; a 2-class softmax over only the `Yes`/`No` tokens gives a binary probability — no autoregressive decoding required.
 2. **Calibration:** the non-conformity score $s(x,y) = 1 - \hat p(y \mid x)$ is computed on 1,000 held-out calibration examples, and the finite-sample-corrected quantile $\hat q$ is computed at the target miscoverage rate $\alpha$.
 3. **Prediction sets:** for each test example, both labels whose probability exceeds $1-\hat q$ are retained. A two-label set flags the example as uncertain.
 
