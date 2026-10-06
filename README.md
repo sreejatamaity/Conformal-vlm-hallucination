@@ -69,7 +69,9 @@ Preprint available on Zenodo: [10.5281/zenodo.23180933](https://doi.org/10.5281/
 
 ## Citation
 
-​```bibtex
+If you use this code or build on this work, please cite:
+
+```bibtex
 @misc{maity2026conformalvlm,
   author    = {Maity, Sreejata},
   title     = {Post-Hoc Conformal Prediction for Hallucination Detection in Vision-Language Models: A Distribution-Free Coverage Guarantee on {POPE-Adversarial}},
@@ -80,4 +82,4 @@ Preprint available on Zenodo: [10.5281/zenodo.23180933](https://doi.org/10.5281/
   url       = {https://doi.org/10.5281/zenodo.23180933},
   note      = {Preprint}
 }
-​```
+```
